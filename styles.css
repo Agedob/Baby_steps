@@ -23,8 +23,22 @@
     background-color: blue;
 }
 #search_container{
+    padding: 10px;
     display: inline-block;
     background-color: #0F0;
+}
+#search_box{
+    padding: 10px;
+    align-content: center;
+    background-color: #666;
+}
+input[type="search"]{
+    text-align: center;
+    font-size: large;
+}
+input[type="button"]{
+    padding: 5px;
+    background-color: darkblue;
 }
 #hot_bar{
     width: 75%;
@@ -32,4 +46,28 @@
     box-align: center;
     border-radius: 5px;
     background-color: lightskyblue;
+    text-align: center;
+    line-height: 12pt;
+}
+#header_list{
+    display: inline-flex;
+    margin: 30px;
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    list-style-position: inside;
+
+}
+#header_main_text{
+    display: inline-block;
+    text-align: center;
+    font-size: 10pt;
+    width: 50%;
+    margin: 20px;
+}
+.yellow_text{
+    color: yellow;
+}
+.header_text{
+    /* text-align: center; */
 }
