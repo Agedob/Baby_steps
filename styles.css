@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    vertical-align: top;
+    font-family: arial;
+}
+#container{
+    margin: 20px;
+    width: 1000px;
+    background-color: red;
+    padding: 10px;
+}
+#header{
+    background-color: blue;
+    padding: 5px;
+}
+#image{
+    display: inline-block;
+    width: 400px;
+}
+#header{
+    background-color: blue;
+}
+#search_container{
+    display: inline-block;
+    background-color: #0F0;
+}
+#hot_bar{
+    width: 75%;
+    padding: 10px;
+    box-align: center;
+    border-radius: 5px;
+    background-color: lightskyblue;
+}
