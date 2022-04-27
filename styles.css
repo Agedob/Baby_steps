@@ -4,46 +4,72 @@
     color: white;
     vertical-align: top;
     font-family: arial;
+    border: 1px solid green;
 }
 #container{
     margin: 20px;
     width: 1000px;
     background-color: red;
-    padding: 10px;
-}
-#header{
-    background-color: blue;
     padding: 5px;
 }
+#header{
+    background-color: blue;
+    padding: 10px;
+
+}
 #image{
-    display: inline-block;
-    width: 400px;
+    /* position: justify; */   
+    /* display: inline-block; already is an inline-block*/
+    width: 45%;
+    /* left: 5%; */
 }
 #header{
     background-color: blue;
+    /* display: grid;
+    align-content: center; */
+}
+#top_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: space-evenly;     */
 }
 #search_container{
+    /* margin: 10px 0px 10px 10%; */
+    /* left: 10%; */
     padding: 10px;
     display: inline-block;
-    background-color: #0F0;
+    background-color: #050;
+    width: 30%;
+    /* text-align: center; */
 }
 #search_box{
     padding: 10px;
+    /* margin: 10px; */
     align-content: center;
     background-color: #666;
+    /* position: relative; */
+    border-radius: 15px;
+}
+#search_box_text{
+    margin-bottom: 10px;
+    text-align: right;
 }
 input[type="search"]{
     text-align: center;
-    font-size: large;
+    font-size: 14pt;
 }
 input[type="button"]{
     padding: 5px;
     background-color: darkblue;
 }
 #hot_bar{
-    width: 75%;
+    width: 70%;
     padding: 10px;
-    box-align: center;
+    left: 15%;
+    position:relative;
+    /* display: flex; */
+    /* box-align: center; */
     border-radius: 5px;
     background-color: lightskyblue;
     text-align: center;
@@ -67,7 +93,4 @@ input[type="button"]{
 }
 .yellow_text{
     color: yellow;
-}
-.header_text{
-    /* text-align: center; */
 }
